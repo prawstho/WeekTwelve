@@ -20,7 +20,7 @@ PGPORT=5432
 PORT=3000
 ```
 ## Adding Data
-* The MongoDB Auth.logins collection will contain data from loading the json file from the previous step.
+* The MongoDB Auth.logins collection will contain data from loading the json file from the previous install and setup step.
 * You add data to the PostgreSQL "Logins" table by using the API
 ``` http://localhost:3000/create?email=new@new&password=new&username=new ```
 ## Using the simple API
